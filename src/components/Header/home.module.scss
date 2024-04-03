@@ -1,0 +1,33 @@
+.container{
+  width:100%;
+  padding: 32px;
+  background-color: black;
+}
+
+.header_content{
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+  color:var(--white);
+}
+
+.divisor{
+  width:2px;
+  height:40px;
+  background-color: white;
+}
+
+.menu{
+  display:flex;
+  align-items: center;
+  column-gap: 40px;
+  margin-left: 20px;
+  a{
+    font-size:14px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+  }
+}

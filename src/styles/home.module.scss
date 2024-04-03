@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    row-gap:80px;
+    min-height: 100vh;
+    background-image: url('/background.png');
+    opacity: 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation:bkcolor 20s steps(1) infinite;
+  }
+
+  @keyframes bkcolor {
+
+    0%  {background-color: #A100C7; }
+    20% {background-color: hsl(198, 83%, 30%);}
+    40% {background-color: hwb(83 6% 73%);}
+    60% {background-color: #E6B02E;}
+    80%{background-color: hsl(333, 100%, 26%);}
+  }

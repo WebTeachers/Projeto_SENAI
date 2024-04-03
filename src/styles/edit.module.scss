@@ -1,0 +1,44 @@
+
+.painel{
+  background-color: var(--black);
+  opacity:0.8;
+  width: 800px;
+  height: 400px;
+  display:flex;
+  margin:auto;
+  padding: 30px;
+  flex-wrap: wrap;
+  box-shadow: 10px 5px 5px black;
+}
+
+.name{
+  font-family:Druk;
+  font-size:25px;
+  letter-spacing: 12px;
+  color:transparent;
+  -webkit-text-stroke: 2px var(--white);
+  text-align: center;
+  width: 100%;
+}
+
+.divisor{
+  width: 100%;
+  color: white;
+}
+
+.box{
+  width: 100%;
+  input{
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+  }
+  fieldset{
+    margin-top: 20px;
+    padding: 15px;
+  }
+  legend{
+    padding: 2px;
+    color:white;
+  }
+}
